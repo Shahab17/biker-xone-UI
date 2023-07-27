@@ -39,14 +39,14 @@
 </head>
 <body class="font-poppins">
     <header class="md:container md:mx-auto">
-        <nav>
+        <nav> 
             <div class="navbar bg-base-100">
                 <div class="flex-1 ">
                   <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box  text-base  ">
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box  text-xl  ">
                       <li><a>Home</a></li>
                       <li><a>Shop</a></li>
                       <li><a>News</a></li>
@@ -56,7 +56,7 @@
                   <a class="btn btn-ghost normal-case text-2xl md:text-4xl">Biker Xone</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1 text-base ">
+                  <ul class="menu menu-horizontal px-1 text-xl ">
                     <li><a>Home</a></li>
                     <li><a>Shop</a></li>
                     <li><a>News</a></li>
@@ -83,7 +83,7 @@
                   <button class="btn bg-bike-primary text-white ">Purchase</button>
               </div>
               <div class="flex-1">
-                <img src="/images/slider/bike1.png" class="w-[400px]" />
+                <img src="./images/slider/bike1.png" class="w-[400px]" />
               </div>
             </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -103,7 +103,7 @@
                   <button class="btn bg-bike-primary text-white ">Purchase</button>
               </div>
               <div class="flex-1">
-                <img src="/images/slider/bike2.png" class="w-[400px]" />
+                <img src="./images/slider/bike2.png" class="w-[400px]" />
               </div>
             </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -123,7 +123,7 @@
                   <button class="btn bg-bike-primary text-white ">Purchase</button>
               </div>
               <div class="flex-1">
-                <img src="/images/slider/bike3.png" class="w-[400px]" />
+                <img src="./images/slider/bike3.png" class="w-[400px]" />
               </div>
             </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -169,13 +169,13 @@
       </section>
 
       <!-- latest bikes -->
-      <section>
+      <section class="my-32">
         <h2 class="text-5xl font-semibold text-center mb-12 ">Latest Bikes</h2>
         <!-- container -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 p-6">
           <!-- bike 1 -->
           <div class="card  bg-base-100 shadow-xl">
-            <img src="/images/others/latest1.png" alt="Shoes" />
+            <img src="./images/others/latest1.png" alt="Shoes" />
             <div class="card-body">
               <h2 class="card-title text-3xl font-semibold">Ducati XDIAVEL S-73</h2>
               <p class="text-[#6C6C6C] mb-9">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
@@ -186,9 +186,9 @@
           </div>
           <!-- bike 2 -->
           <div class="card  bg-base-100 shadow-xl">
-            <img src="/images/others/latest2.png" alt="Shoes" />
+            <img src="./images/others/latest2.png" alt="Shoes" />
             <div class="card-body">
-              <h2 class="card-title text-3xl font-semibold">Ducati XDIAVEL S-73</h2>
+              <h2 class="card-title text-3xl font-semibold">Motorcycles & Scooters</h2>
               <p class="text-[#6C6C6C] mb-9">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
               <div class="card-actions justify-center">
                 <button class="btn bg-bike-primary">Buy Now</button>
@@ -197,9 +197,9 @@
           </div>
           <!-- bike 3 -->
           <div class="card  bg-base-100 shadow-xl">
-            <img src="/images/others/latest3.png" alt="Shoes" />
+            <img src="./images/others/latest3.png" alt="Shoes" />
             <div class="card-body">
-              <h2 class="card-title text-3xl font-semibold">Ducati XDIAVEL S-73</h2>
+              <h2 class="card-title text-3xl font-semibold">2021 Honda CBR500R</h2>
               <p class="text-[#6C6C6C] mb-9">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
               <div class="card-actions justify-center">
                 <button class="btn bg-bike-primary ">Buy Now</button>
@@ -207,6 +207,26 @@
             </div>
           </div>
         </div>
+      </section>
+
+      <!-- happy clients section -->
+      <section>
+        <h2 class="text-5xl font-semibold text-center mb-12 ">Happy <span class="text-bike-primary">Clients Says</span> </h2>
+        
+        <div class="grid">
+          <!-- first review -->
+          <div class="card card-compact w-96 bg-base-100 shadow-xl">
+            <figure><img src="/images/others/user-1.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <p>Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p>
+            </div>
+          </div>
+
+        </div>
+        
       </section>
 
     </main>
